@@ -3,7 +3,13 @@ Mad Monkey Hostels
 
 WHAT THIS IS
 Static page, no build step, no dependencies. Drop the folder on the server and
-point a route at it. Everything works from file system alone.
+point a route at it.
+
+Image paths are root-relative (/makesomenoise/assets/...) so they load whether
+the page is opened as /makesomenoise or /makesomenoise/. If the page moves,
+update those two <img> src paths too. Opened straight from disk, the images
+won't show; preview through the live URL or a local server mounted at
+/makesomenoise instead.
 
 FILES
   index.html                      the page (all CSS and JS inline)
