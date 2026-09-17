@@ -11,10 +11,10 @@ FILES
   assets/tiktok-example.jpg       phone mockup in the "this is why" block
   assets/og-image.jpg             1200x630 link-preview card
 
-BEFORE GOING LIVE — 1 REQUIRED CHANGE
-In the <head>, replace every instance of
-    https://madmonkeyhostels.com/creatorhub/allin
-with the real URL of the page.
+LIVE URL
+The page is deployed at
+    https://madmonkeyhostels.com/makesomenoise
+If it ever moves, update every instance of that URL in the <head>.
 
 This matters most for og:image. It MUST be an absolute URL. Instagram,
 WhatsApp and iMessage will not render a link preview from a relative path,
